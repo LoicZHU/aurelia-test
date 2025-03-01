@@ -1,3 +1,13 @@
+import {HelloWorld} from "./pages/Hello-world/hello-world";
+
 export class MyApp {
-  public message = 'Hello World!';
+  static routes = [
+    {
+      path: 'hello',
+      component: HelloWorld,
+      title: 'Hello world',
+    },
+  ];
+
+  public message = 'Hello world!';
 }
