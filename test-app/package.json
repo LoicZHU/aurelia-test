@@ -9,6 +9,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@aurelia/router": "latest",
+    "animejs": "^3.2.2",
     "aurelia": "latest"
   },
   "devDependencies": {
@@ -37,7 +38,7 @@
     "start": "vite",
     "build": "vite build",
     "test": "vitest",
-    "prepare": "cd .. && husky my-app/.husky"
+    "prepare": "cd .. && husky test-app/.husky"
   },
   "type": "module",
   "overrides": {
