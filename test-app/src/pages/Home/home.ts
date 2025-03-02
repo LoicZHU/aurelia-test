@@ -1,7 +1,5 @@
 import { AnimationHooks } from '../../hooks/animation-hooks';
 
-export class HelloWorld {
+export class Home {
   static dependencies = [AnimationHooks];
-
-  public name = 'Person';
 }

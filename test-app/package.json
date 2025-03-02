@@ -9,6 +9,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@aurelia/router": "latest",
+    "animejs": "^3.2.2",
     "aurelia": "latest"
   },
   "devDependencies": {

@@ -1,8 +1,18 @@
 <import from="./pages/Not-found/not-found"></import>
 
-<div class="message">${message}</div>
+<main>
+  <div class="message">${message}</div>
 
-<!-- Two routes using the load attribute containing the path of the route -->
-<a load="hello">Hello world</a>
+  <nav>
+    <ul>
+      <li>
+        <a load="">Home</a>
+      </li>
+      <li>
+        <a load="hello">Hello world</a>
+      </li>
+    </ul>
+  </nav>
 
-<au-viewport fallback="not-found"></au-viewport>
+  <au-viewport fallback="not-found"></au-viewport>
+</main>
