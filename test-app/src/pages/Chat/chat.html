@@ -1,0 +1,16 @@
+<template>
+  <div class="chat-container">
+    <div class="chat-history">
+      <div
+        repeat.for="entry of chatHistory"
+        class="message ${entry.sender === 'User' ? 'user' : 'bot'}"
+      >
+        <strong>${entry.sender}:</strong> ${entry.message}
+      </div>
+    </div>
+    <form submit.trigger="sendMessage()">
+      <input type="text" value.bind="userMessage" placeholder="Type your message..." />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</template>

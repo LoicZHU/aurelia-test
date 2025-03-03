@@ -11,6 +11,11 @@ export class MyApp implements IRouteableComponent {
       component: import('./pages/Hello-world/hello-world'),
       title: 'Hello world',
     },
+    {
+      path: 'chatgpt',
+      component: () => import('./pages/Chat/chat'),
+      title: 'Hello world',
+    },
     { path: ['', 'home'], component: Home },
   ];
 
